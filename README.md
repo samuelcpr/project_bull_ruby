@@ -24,4 +24,4 @@ Things you may want to cover:
 * ...
 
 # Link do projeto
-https://docs.docker.com/samples/rails/
+https://docs.docker.com/samples/rails/)

@@ -1,16 +1,9 @@
-default: &default
+  development:
   adapter: postgresql
   encoding: unicode
-  host: db
-  username: postgres
+  database: sample_postgres_development
+  username: root
   password: password
   pool: 5
-
-development:
-  <<: *default
-  database: myapp2_development
-
-
-test:
-  <<: *default
-  database: myapp2_test
+  host: localhost
+  port: 5432
